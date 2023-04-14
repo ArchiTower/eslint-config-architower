@@ -88,6 +88,6 @@
     "husky": "8.0.3",
     "semantic-release": "^21.0.0",
     "semantic-release-config-gitmoji": "^1.4.3",
-    "typescript": "^5.0.2"
+    "typescript": "^5.0.4"
   }
 }
