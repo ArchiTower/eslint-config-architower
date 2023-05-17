@@ -1,5 +1,34 @@
 # Changelog
 
+# [1.1.0-beta.12](https://github.com/ArchiTower/eslint-config-architower/compare/v1.1.0-beta.11...v1.1.0-beta.12) (2023-05-17)
+
+
+### ✨ Features
+
+* upgrade most of the deps ([ea51e51](https://github.com/ArchiTower/eslint-config-architower/commit/ea51e51))
+
+
+### 🎫 Chores
+
+* **deps**: Update devDependency semantic-release to v21 ([55c80b8](https://github.com/ArchiTower/eslint-config-architower/commit/55c80b8))
+* **release**: v1.1.0 [skip ci] ([eae10b8](https://github.com/ArchiTower/eslint-config-architower/commit/eae10b8)), closes [#6](https://github.com/ArchiTower/eslint-config-architower/issues/6)
+
+
+### 🐛 Bug Fixes
+
+* commitlint config ([3427822](https://github.com/ArchiTower/eslint-config-architower/commit/3427822))
+* husky pre-commit not executable ([f8b4603](https://github.com/ArchiTower/eslint-config-architower/commit/f8b4603))
+
+
+### 📝 Documentation
+
+* update README.md about Playwright & Vitest ([4b83dea](https://github.com/ArchiTower/eslint-config-architower/commit/4b83dea))
+
+
+### 🔧 Continuous Integration
+
+* remove old pnpm ([5014d87](https://github.com/ArchiTower/eslint-config-architower/commit/5014d87))
+
 # [1.1.0](https://github.com/ArchiTower/eslint-config-architower/compare/v1.0.0...v1.1.0) (2023-03-24)
 
 
