@@ -2,7 +2,10 @@ name: Release
 
 on:
   push:
-    branches: ["main", "develop"]
+    branches:
+      - "main"
+      - "develop"
+  workflow_dispatch:
 
 permissions:
   contents: write
@@ -13,6 +16,10 @@ jobs:
   release:
     runs-on: ubuntu-latest
 
+    strategy:
+      matrix:
+        node-version: [18.12.1]
+
     steps:
       - uses: actions/checkout@v3
         with:
@@ -21,20 +28,23 @@ jobs:
       - name: Init pnpm
         uses: pnpm/action-setup@v2
         with:
-          version: 6.32.9
+          version: latest
 
-      - name: Use Node.js ${{ matrix.node-version }}
+      - name: Use Node.js (v${{ matrix.node-version }})
         uses: actions/setup-node@v3
         with:
-          node-version: 18.12.1
+          node-version: ${{ matrix.node-version }}
           cache: "pnpm"
           cache-dependency-path: pnpm-lock.yaml
 
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
 
+      - name: Check code with ESLint
+        run: pnpm run lint
+
       - name: Releasing
-        run: pnpm release:ci
+        run: pnpm run release:ci
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
