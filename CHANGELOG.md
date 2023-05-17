@@ -1,5 +1,17 @@
 # Changelog
 
+# [1.2.0](https://github.com/ArchiTower/eslint-config-architower/compare/v1.1.0...v1.2.0) (2023-05-17)
+
+
+### ✨ Features
+
+* updated dependencies ([168f794](https://github.com/ArchiTower/eslint-config-architower/commit/168f794)), closes [#6](https://github.com/ArchiTower/eslint-config-architower/issues/6) [#6](https://github.com/ArchiTower/eslint-config-architower/issues/6)
+
+
+### 🔧 Continuous Integration
+
+* fix release process ([143b5c0](https://github.com/ArchiTower/eslint-config-architower/commit/143b5c0))
+
 # [1.1.0-beta.12](https://github.com/ArchiTower/eslint-config-architower/compare/v1.1.0-beta.11...v1.1.0-beta.12) (2023-05-17)
 
 
