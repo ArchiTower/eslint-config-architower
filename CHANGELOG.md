@@ -1,5 +1,22 @@
 # Changelog
 
+# [1.3.0](https://github.com/ArchiTower/eslint-config-architower/compare/v1.2.0...v1.3.0) (2023-06-08)
+
+
+### ✨ Features
+
+* upgraded deps ([80117b9](https://github.com/ArchiTower/eslint-config-architower/commit/80117b9)), closes [#6](https://github.com/ArchiTower/eslint-config-architower/issues/6) [#6](https://github.com/ArchiTower/eslint-config-architower/issues/6) [#6](https://github.com/ArchiTower/eslint-config-architower/issues/6) [#6](https://github.com/ArchiTower/eslint-config-architower/issues/6) [#6](https://github.com/ArchiTower/eslint-config-architower/issues/6) [#6](https://github.com/ArchiTower/eslint-config-architower/issues/6) [#6](https://github.com/ArchiTower/eslint-config-architower/issues/6) [#6](https://github.com/ArchiTower/eslint-config-architower/issues/6)
+
+
+### 🎫 Chores
+
+* lock issues ([b8835d1](https://github.com/ArchiTower/eslint-config-architower/commit/b8835d1))
+
+
+### 🔧 Continuous Integration
+
+* fix release ([d314a39](https://github.com/ArchiTower/eslint-config-architower/commit/d314a39))
+
 # [1.2.0](https://github.com/ArchiTower/eslint-config-architower/compare/v1.1.0...v1.2.0) (2023-05-17)
 
 
